@@ -22,7 +22,7 @@ const FAQ = () => {
     <div className="mx-2 lg:mx-10 p-8 shadow rounded">
       <h2 className="py-4 text-center">Frequently Asked Questions</h2>
 
-      <div onClick={() => showq1(!q1)}>
+      {/* <div onClick={() => showq1(!q1)}>
         <h3 className="text-lg text-lg uppercase text-primary flex items-center cursor-pointer">
           <span className="text-sm">
             <FaAngleDown />
@@ -66,7 +66,7 @@ const FAQ = () => {
             deposit directly to <strong>{schoolName}</strong>.
           </p>
         )}
-      </Collapse>
+      </Collapse> */}
 
       <div onClick={() => showq2(!q2)}>
         <h3 className="text-lg text-lg uppercase text-primary flex items-center cursor-pointer">
@@ -105,7 +105,7 @@ const FAQ = () => {
         </p>
       </Collapse>
 
-      {faq.costOfLiving && (
+      {/* {faq.costOfLiving && (
         <>
           <div onClick={() => showq3(!q3)}>
             <h3 className="text-lg uppercase text-primary flex items-center cursor-pointer">
@@ -147,7 +147,7 @@ const FAQ = () => {
             </p>
           </Collapse>
         </>
-      )}
+      )} */}
 
       <div onClick={() => showq4(!q4)}>
         <h3 className="text-lg uppercase text-primary flex items-center cursor-pointer">
@@ -354,7 +354,7 @@ const FAQ = () => {
         </p>
       </Collapse>
 
-      <div onClick={() => showq8(!q8)}>
+      {/* <div onClick={() => showq8(!q8)}>
         <h3 className="text-lg uppercase text-primary flex items-center cursor-pointer">
           <span className="text-sm">
             <FaAngleDown />
@@ -387,9 +387,9 @@ const FAQ = () => {
           additional funds, should you not be awarded your scholarship, as loans
           may not be upward adjusted.
         </p>
-      </Collapse>
+      </Collapse> */}
 
-      <div onClick={() => showq9(!q9)}>
+      {/* <div onClick={() => showq9(!q9)}>
         <h3 className="text-lg uppercase text-primary flex items-center cursor-pointer">
           <span className="text-sm">
             <FaAngleDown />
@@ -430,9 +430,9 @@ const FAQ = () => {
             finding the right cosigner.
           </a>
         </p>
-      </Collapse>
+      </Collapse> */}
 
-      <div onClick={() => showq10(!q10)}>
+      {/* <div onClick={() => showq10(!q10)}>
         <h3 className="text-lg uppercase text-primary flex items-center cursor-pointer">
           <span className="text-sm">
             <FaAngleDown />
@@ -446,9 +446,9 @@ const FAQ = () => {
           cohort must begin within 90 days of the date that you apply for a
           loan.
         </p>
-      </Collapse>
+      </Collapse> */}
 
-      <div onClick={() => showq11(!q11)}>
+      {/* <div onClick={() => showq11(!q11)}>
         <h3 className="text-lg uppercase text-primary flex items-center cursor-pointer">
           <span className="text-sm">
             <FaAngleDown />
@@ -475,9 +475,9 @@ const FAQ = () => {
           <li>Current income (not a factor in credit decision)</li>
           <li>Current employment status (not a factor in credit decision)</li>
         </ul>
-      </Collapse>
+      </Collapse> */}
 
-      <div onClick={() => showq12(!q12)}>
+      {/* <div onClick={() => showq12(!q12)}>
         <h3 className="text-lg uppercase text-primary flex items-center cursor-pointer">
           <span className="text-sm">
             <FaAngleDown />
@@ -500,7 +500,7 @@ const FAQ = () => {
           </a>{" "}
           today.
         </p>
-      </Collapse>
+      </Collapse> */}
 
       <p className="text-left lg:text-center">
         For other general questions about Skills Fund financing, please visit
