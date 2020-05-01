@@ -48,15 +48,6 @@ const Banner = props => {
           or at 877-354-2629.{" "}
         </li>
       </ul>
-      {/* <div className='flex flex-col lg:flex-row pb-16'>
-            <Button
-                buttonClassName='opacityApply uppercase bg-primary p-3 lg:mb-0 w-40 rounded-full shadow-lg text-white'
-                divClassName='flex justify-center mt-5'
-                text={applicationsLive ? 'apply now' : 'notify me'}
-                onClick={props.applyNowOnClick}
-                id="bannerApply"
-            />
-        </div> */}
     </div>
   )
 }
